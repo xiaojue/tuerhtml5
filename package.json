@@ -1,0 +1,22 @@
+{
+  "name": "tuerhtml5",
+  "version": "0.0.1",
+  "author": {
+    "name": "xiaojue",
+    "email": "designsor@gmail.com",
+    "url": "http://tuer.me/user/profile/designsor"
+  },
+  "description": "tuer.me html5 client",
+  "keywords": [
+    "html5 client",
+    "diary offline",
+    "nodejs web site"
+  ],
+  "dependencies": {
+    "lithe": "0.1.4"
+  },
+  "repository": {
+    "type": "gif",
+    "url": "https://github.com/xiaojue/tuerhtml5.git"
+  }
+}
