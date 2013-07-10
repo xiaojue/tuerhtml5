@@ -10,11 +10,12 @@
         <link rel="apple-touch-icon" size="114x114" href="touch-icon-icon-114x114-precomposed.png"/>
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-responsive.min.css">
+        <script src="lib/sjs.js"></script>
         <style>
             body{
                 background:#DFE2E2;
             }
-            .header,.bd,.ft{
+            .header,.bd,.ft,.notFound{
                 text-align:center;
                 margin:20px 0 10px 0;
             }
@@ -30,54 +31,19 @@
                 </div>
             </div>
             <div class="row-fluid">
-                <div class="span12" id="index">
-                    <!-- 注册
-                    <form class="form-inline bd">
-                        <p>
-                        <label>
-                            <input type="text" class="input-xlarge" value="" placeholder="注册用的Email"> 
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input type="text" class="input-xlarge" value="" placeholder="昵称"> 
-                        </label>
-                        </p>
-                        <p>
-                            <input type="button" value="注册" class="btn btn-primary">
-                            <input type="submit" value="登录" class="btn">
-                        </p>
-                    </form>
-                    -->
-                    <form class="form-inline bd">
-                        <p>
-                        <label>
-                            <input type="text" class="input-xlarge" value="" placeholder="请输入用户名"> 
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input type="text" class="input-xlarge" value="" placeholder="请输入密码"> 
-                        </label>
-                        </p>
-                        <p>
-                            <input type="submit" value="登录" class="btn btn-primary">
-                            <input type="button" value="试用" class="btn btn-success">
-                            <input type="button" value="注册" class="btn">
-                        </p>
-                    </form>
-                </div>
+                <div class="span12" data-module="main"></div>
             </div>
             <div class="row-fluid">
                 <div class="span12">
-                    <div class="ft">
+                    <div class="ft" data-module="footer">
                         <small>
                             兔耳日记 &copy; 2012-2022 Tuer.me
-                            <a href="#">忘记密码</a>
+                            <a href="#/forgot">忘记密码</a>
                         </small>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="lib/sjsapp.js" data-path="http://html5.tuer.me/lib/" data-main="conf/tuer.js" data-debug="true"></script>
     </body>
 </html>

@@ -12,9 +12,6 @@
     "diary offline",
     "nodejs web site"
   ],
-  "dependencies": {
-    "lithe": "0.1.4"
-  },
   "repository": {
     "type": "gif",
     "url": "https://github.com/xiaojue/tuerhtml5.git"
